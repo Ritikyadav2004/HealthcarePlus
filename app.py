@@ -163,6 +163,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def health():
+    return {"status": "ok"}
+
+
 model = None  # ✅ lazy load
 
 
