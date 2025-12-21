@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 import pandas as pd
 import os
 
