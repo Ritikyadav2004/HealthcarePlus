@@ -134,19 +134,19 @@ const HeartHealth = () => {
   };
 
 const inputConstraints = {
-    age: { min: 29, max: 77 },
-    sex: { min: 0, max: 1 },
-    cp: { min: 0, max: 3 },
-    trestbps: { min: 94, max: 200 },
-    chol: { min: 126, max: 564 },
-    fbs: { min: 0, max: 1 },
-    restecg: { min: 0, max: 2 },
-    thalach: { min: 71, max: 202 },
-    exang: { min: 0, max: 1 },
-    oldpeak: { min: 0.0, max: 6.2 },
-    slope: { min: 0, max: 2 },
-    ca: { min: 0, max: 3 },
-    thal: { min: 0, max: 3 }
+    age: { min: 29, max: 77, unit: "years" },
+    sex: { min: 0, max: 1, unit: null },
+    cp: { min: 0, max: 3, unit: null },
+    trestbps: { min: 94, max: 200, unit: "mmHg" },
+    chol: { min: 126, max: 564, unit: "mg/dL" },
+    fbs: { min: 0, max: 1, unit: null },
+    restecg: { min: 0, max: 2, unit: null },
+    thalach: { min: 71, max: 202, unit: "beats/min" },
+    exang: { min: 0, max: 1, unit: null },
+    oldpeak: { min: 0.0, max: 6.2, unit: "mm" },
+    slope: { min: 0, max: 2, unit: null },
+    ca: { min: 0, max: 3, unit: null },
+    thal: { min: 0, max: 3, unit: null }
   };
 
   const handleChange = (e) => {
@@ -237,7 +237,7 @@ const inputConstraints = {
 
         <form onSubmit={handleSubmit} className="form-grid">
           <div className="form-group">
-            <label className="form-label">Age ({inputConstraints.age.min}-{inputConstraints.age.max})</label>
+            <label className="form-label">Age ({inputConstraints.age.min}-{inputConstraints.age.max} {inputConstraints.age.unit})</label>
             <input 
               type="number" 
               name="age" 
@@ -270,7 +270,7 @@ const inputConstraints = {
             />
           </div>
           <div className="form-group">
-            <label className="form-label">Resting Blood Pressure ({inputConstraints.trestbps.min}-{inputConstraints.trestbps.max})</label>
+            <label className="form-label">Resting Blood Pressure ({inputConstraints.trestbps.min}-{inputConstraints.trestbps.max} {inputConstraints.trestbps.unit})</label>
             <input 
               type="number" 
               name="trestbps" 
@@ -283,7 +283,7 @@ const inputConstraints = {
             />
           </div>
           <div className="form-group">
-            <label className="form-label">Cholesterol ({inputConstraints.chol.min}-{inputConstraints.chol.max})</label>
+            <label className="form-label">Cholesterol ({inputConstraints.chol.min}-{inputConstraints.chol.max} {inputConstraints.chol.unit})</label>
             <input 
               type="number" 
               name="chol" 
@@ -316,7 +316,7 @@ const inputConstraints = {
             />
           </div>
           <div className="form-group">
-            <label className="form-label">Max Heart Rate ({inputConstraints.thalach.min}-{inputConstraints.thalach.max})</label>
+            <label className="form-label">Max Heart Rate ({inputConstraints.thalach.min}-{inputConstraints.thalach.max} {inputConstraints.thalach.unit})</label>
             <input 
               type="number" 
               name="thalach" 
@@ -336,7 +336,7 @@ const inputConstraints = {
             </select>
           </div>
           <div className="form-group">
-            <label className="form-label">ST Depression ({inputConstraints.oldpeak.min}-{inputConstraints.oldpeak.max})</label>
+            <label className="form-label">ST Depression ({inputConstraints.oldpeak.min}-{inputConstraints.oldpeak.max} {inputConstraints.oldpeak.unit})</label>
             <input 
               type="number" 
               step="0.1" 
