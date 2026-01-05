@@ -184,5 +184,6 @@ Computer Science Engineering Student | AI/ML Enthusiast
 📂 GitHub: [https://github.com/Ritikyadav2004](https://github.com/Ritikyadav2004)
 
 ---
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ⭐ If you find this project useful, feel free to star the repository!
