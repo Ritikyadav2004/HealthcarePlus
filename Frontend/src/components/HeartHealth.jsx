@@ -184,7 +184,7 @@ const inputConstraints = {
       //http://127.0.0.1:5000/predict
       //healthcareplus-production.up.railway.app
       //http://127.0.0.1:8000/predict
-      const response = await fetch('https://healthcareplus-production.up.railway.app/predict', {
+      const response = await fetch('https://healthcareplus-production-c240.up.railway.app/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
