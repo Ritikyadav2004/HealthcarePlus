@@ -23,7 +23,7 @@ HealthCare+ uses Machine Learning to analyze **13 physiological health parameter
 
 ## 🔗 Live Demo
 
-🌐 **[https://healthcarewallha.netlify.app](https://healthcarewallha.netlify.app)**
+🌐 **[https://healthcarewalha.netlify.app](https://healthcarewala.netlify.app/heart-health)**
 *(Beta: Login with any dummy email such as [test@example.com](mailto:test@example.com) — no signup required)*
 
 📂 **GitHub Repository:**
