@@ -179,9 +179,10 @@ This project is licensed under the **MIT License**.
 **Ritik Yadav**
 Computer Science Engineering Student | AI/ML Enthusiast
 
-🌐 Portfolio: *(Coming Soon)*
-💼 LinkedIn: *(Add link)*
+🌐 Portfolio: https://myportfolio-1-eumd.onrender.com/
+💼 LinkedIn: https://www.linkedin.com/in/ritik-yadav-b4914a2b8/
 📂 GitHub: [https://github.com/Ritikyadav2004](https://github.com/Ritikyadav2004)
+📊 Dataset:https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data
 
 ---
 ⭐ If you find this project useful, feel free to star the repository!
