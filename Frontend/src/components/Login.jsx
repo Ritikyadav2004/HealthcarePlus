@@ -25,7 +25,8 @@ const Login = () => {
     <div className="auth-container">
       <div className="auth-header">
         <h1>HealthCare Portal</h1>
-        <p>Welcome back! Please login to your account.</p>
+        <p>Welcome back! Please log in to your account.</p>
+        <p>Use the demo credentials: email: user@example.com, password: password.</p>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
